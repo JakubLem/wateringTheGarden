@@ -1,8 +1,7 @@
 #include "polygon.h"
 #include "point.h"
 
-Polygon::Polygon()
-{
+Polygon::Polygon() {
     this->quantity = 1;
     this->vertices = new Point[this->quantity];
     vertices[0] = Point();
