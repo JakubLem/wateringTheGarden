@@ -18,11 +18,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    point.cpp
+    point.cpp \
+    polygon.cpp
 
 HEADERS += \
     mainwindow.h \
-    point.h
+    point.h \
+    polygon.h
 
 FORMS += \
     mainwindow.ui
