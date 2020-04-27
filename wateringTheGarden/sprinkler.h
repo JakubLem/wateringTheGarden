@@ -4,6 +4,10 @@
 
 class Sprinkler
 {
+    double cost;
+    double radius;
+    double range;
+    bool angleAdjustment;
 public:
     Sprinkler();
 };
