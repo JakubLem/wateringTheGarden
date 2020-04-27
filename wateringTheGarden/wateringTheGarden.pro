@@ -20,13 +20,15 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     point.cpp \
-    polygon.cpp
+    polygon.cpp \
+    sprinkler.cpp
 
 HEADERS += \
     garden.h \
     mainwindow.h \
     point.h \
-    polygon.h
+    polygon.h \
+    sprinkler.h
 
 FORMS += \
     mainwindow.ui
