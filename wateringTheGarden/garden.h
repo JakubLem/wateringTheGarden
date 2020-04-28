@@ -9,15 +9,17 @@ class Garden
     int areasQuantity;
     Polygon * areas;
     double budget;
+    int sprinklersQuantity;
     Sprinkler * sprinklers;
 public:
     Garden();
-    Garden(int areasQuantity, Polygon * areas, double budget, Sprinkler * sprinklers);
+    Garden(int areasQuantity, Polygon * areas, double budget, int sprinklersQuantity, Sprinkler * sprinklers);
 
     //getters
     int getAreasQuantity();
     Polygon * getAreas();
     double getBudget();
+    int getSprinklersQuantity();
     Sprinkler * getSprinklers();
     Sprinkler getSprinkler(int i);
 
@@ -25,6 +27,7 @@ public:
     void setAreasQuantity(int areasQuantity);
     void setAreas(Polygon * areas);
     void setBudget(double budget);
+    void setSprinklersQuantity(int sprinklersQuantity);
     void setSprinklers(Sprinkler * sprinklers);
     void setSprinkler(int i, Sprinkler sprinkler);
 
