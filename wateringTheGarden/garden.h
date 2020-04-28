@@ -11,6 +11,9 @@ class Garden
     double budget;
     int sprinklersQuantity;
     Sprinkler * sprinklers;
+
+    int getQuantityOfObtuseAngles();
+
 public:
     Garden();
     Garden(int areasQuantity, Polygon * areas, double budget, int sprinklersQuantity, Sprinkler * sprinklers);
@@ -30,6 +33,10 @@ public:
     void setSprinklersQuantity(int sprinklersQuantity);
     void setSprinklers(Sprinkler * sprinklers);
     void setSprinkler(int i, Sprinkler sprinkler);
+
+    //functions
+    int func();
+
 
     ~Garden(){}
 };

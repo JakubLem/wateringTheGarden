@@ -17,9 +17,6 @@ Garden::Garden(int areasQuantity, Polygon * areas, double budget, int sprinklers
     for(int i = 0 ; i < this->sprinklersQuantity ; i++){
         this->sprinklers[i] = sprinklers[i];
     }
-
-
-
 }
 
 //getters
