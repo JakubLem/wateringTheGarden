@@ -14,10 +14,10 @@ int main(int argc, char *argv[]) {
     cout<<p1.getX()<<endl;
     cout<<p1.getY()<<endl;
 
-    /*
+
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-    return a.exec();*/
-    return 0;
+    return a.exec();
+    //return 0;
 }
